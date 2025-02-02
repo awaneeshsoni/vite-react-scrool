@@ -96,7 +96,7 @@ const App: React.FC = () => {
 
     const handleSwipe = () => {
       const swipeDistance = touchStart - touchEnd;
-      const threshold = 10
+      const threshold = 5
       ;
 
       if (Math.abs(swipeDistance) > threshold) {
